@@ -1,0 +1,115 @@
+.section-4 {
+    margin: 130px 60px 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-4-left {
+    b {
+        font-weight: 800;
+        font-size: 57px;
+        line-height: 140%;
+        color: $primaryBlack;
+        padding-bottom: 60px;
+    }
+}
+
+.sec-4-left-img {
+    position: relative;
+    padding: 48px 74px;
+    background-color: $backColor;
+    div {
+        border-radius: 50%;
+    }
+    .big {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 126px;
+        height: 126px;
+        background: rgba(255, 255, 255, 0.3);
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 96px;
+            height: 96px;
+            background-color: rgba(255, 255, 255, 0.5);
+
+            .small {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 68px;
+                height: 68px;
+                background-color: white;
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}
+
+.sec-4-right {
+    .sec-4-right-img {
+        position: relative;
+        padding: 40px 55px;
+        background-color: $backColor;
+        margin-bottom: 40px;
+        div {
+            border-radius: 50%;
+        }
+        .big {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 126px;
+            height: 126px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 96px;
+            height: 96px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .small {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 68px;
+            height: 68px;
+            background-color: white;
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+
+    p {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 160%;
+        color: rgba(8, 24, 0, 0.6);
+    }
+}

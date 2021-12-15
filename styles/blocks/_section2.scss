@@ -1,0 +1,45 @@
+.section-2 {
+    margin: 130px 60px 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plant-are {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    b {
+        font-weight: 800;
+        font-size: 57px;
+        line-height: 140%;
+    }
+
+    .image-plant {
+        padding: 57px 45px 41px 49px;
+        background-color: $backColor;
+    }
+}
+
+
+.ware_not {
+    .img-right {
+        padding: 9px 27px;
+        background-color: $backColor;
+        margin-bottom: 48px;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 160%;
+
+        color: $textColor;
+        padding-bottom: 30px;
+    }
+    
+    a {
+        display: inline-block;
+        margin-left: 0;
+    }
+}
